@@ -8,6 +8,12 @@ line under every figure.
 Open it by double-clicking `index.html`. No build step, no dependencies, no
 network calls. Inputs persist in `localStorage`.
 
+**Live link:** https://lurkeyteg.github.io/protection-studio/ — public repo
+`Lurkeyteg/protection-studio`, GitHub Pages. The source is readable by anyone with
+the link (true of any static host); `Raw/Code/protection-studio/` in the vault stays
+the source of truth and `~/code/protection-studio/publish.sh` republishes it
+(`bash publish.sh retract` makes the repo private and takes the link down).
+
 Same family as BTO Studio and ILP Studio: dark/light theme, sidebar of inputs,
 one self-contained file, and an engine block that the tests extract and run
 directly out of the shipped HTML.
