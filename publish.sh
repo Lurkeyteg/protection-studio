@@ -84,11 +84,17 @@ if [ "$(auth -o /dev/null -w '%{http_code}' "$API")" = "404" ]; then
   echo "repo created"
 fi
 
-# ---- 3. public + pages ----
+# ---- 3. public ----
 auth -X PATCH "$API" -d '{"private":false}' | grep -q '"private": false' \
   || { echo "could not make the repo public"; exit 1; }
 echo "repo is public"
 
+# ---- 3b. push (never leave the token in .git/config) ----
+git remote remove origin 2>/dev/null || true
+git -c credential.helper= push -q "https://${ACCOUNT}:${TOK}@github.com/${SLUG}.git" HEAD:main \
+  && echo "pushed" || { echo "push failed"; exit 1; }
+
+# ---- 4. pages (needs a commit on main first, or GitHub returns 422) ----
 if [ "$(auth -o /dev/null -w '%{http_code}' "$API/pages")" = "404" ]; then
   # a 404 here means Pages is off; the POST must be verified or the publish looks
   # successful while the link stays dead (the API also 404s for a few seconds
@@ -106,11 +112,6 @@ if [ "$(auth -o /dev/null -w '%{http_code}' "$API/pages")" = "404" ]; then
 else
   echo "pages already enabled"
 fi
-
-# ---- 4. push (never leave the token in .git/config) ----
-git remote remove origin 2>/dev/null || true
-git -c credential.helper= push -q "https://${ACCOUNT}:${TOK}@github.com/${SLUG}.git" HEAD:main \
-  && echo "pushed" || { echo "push failed"; exit 1; }
 
 # ---- 5. wait for the link, then prove it serves THIS copy ----
 echo "waiting for Pages to build…"
