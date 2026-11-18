@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protection Studio — Singapore protection needs checklist</title>
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="description" content="Singapore protection needs checklist: death, critical illness, TPD, accidental split, disability income, hospitalisation and company cover — required vs in place, anchored to LIA rules of thumb.">
+<meta name="theme-color" content="#0e1311">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e1311'/%3E%3Cpath d='M16 6 L25 10 v7 c0 5-4 8-9 9-5-1-9-4-9-9v-7z' fill='none' stroke='%236fbfa5' stroke-width='2.2' stroke-linejoin='round'/%3E%3Cpath d='M11.5 16.2 l3.2 3.2 6-6.4' fill='none' stroke='%2395d9c3' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0e1311;--panel:#151d1a;--panel2:#1b2420;--line:#27342e;--txt:#e6efe9;--muted:#8a9c93;
+  --accent:#6fbfa5;--accent2:#95d9c3;--onaccent:#0b1210;--up:#16c784;--down:#ea3943;
+  --gold:#ffd34d;--chip:#202b26;--hover:#1f2a25;--grp:#e2b268;--nat:#7fa8c2;--gapc:#ea3943;--rec:#b48cf2;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  --r:14px;--rs:9px;color-scheme:dark;
+  --glow:radial-gradient(900px 420px at 12% -12%,rgba(111,191,165,.14),transparent 62%),radial-gradient(700px 380px at 94% 0%,rgba(226,178,104,.07),transparent 60%);
+}
+:root[data-theme="light"]{
+  --bg:#f3f7f5;--panel:#ffffff;--panel2:#eef4f1;--line:#d9e3de;--txt:#132019;--muted:#5b6b63;
+  --accent:#2f7d63;--accent2:#25674f;--onaccent:#fff;--up:#0e9f6e;--down:#d62839;--gold:#a8720a;
+  --chip:#eef4f1;--hover:#eef4f1;--grp:#a8720a;--nat:#3e6076;--gapc:#d62839;--rec:#6b46c1;color-scheme:light;
+  --glow:radial-gradient(900px 420px at 12% -12%,rgba(47,125,99,.10),transparent 62%),radial-gradient(700px 380px at 94% 0%,rgba(168,114,10,.06),transparent 60%);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);background-image:var(--glow);background-repeat:no-repeat;color:var(--txt);
+  font-family:var(--font);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:48px}
+.wrap{max-width:1380px;margin:0 auto;padding:0 22px}
+.num{font-variant-numeric:tabular-nums;letter-spacing:-.2px}
+/* ---------- top bar ---------- */
+.top{position:sticky;top:0;z-index:60;display:flex;align-items:center;gap:9px;padding:12px 22px;
+  border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--bg) 84%,transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:9px;white-space:nowrap}
+.brand b{font-size:15px;font-weight:750;letter-spacing:-.2px}
+.brand span{font-size:11.5px;color:var(--muted)}
+.sp{flex:1}
+.tbtn{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:8px;
+  padding:7px 11px;font-size:12.5px;line-height:1;cursor:pointer;font-family:inherit;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:6px;transition:.14s}
+.tbtn:hover{color:var(--txt);border-color:var(--accent)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;padding:4px 9px;border-radius:999px;
+  border:1px solid var(--line);background:var(--chip);color:var(--muted);white-space:nowrap}
+.pill.ok{color:var(--up);border-color:color-mix(in srgb,var(--up) 35%,var(--line))}
+.pill.warn{color:#ffb3bf;border-color:#46232b;background:#241a1d}
+:root[data-theme="light"] .pill.warn{background:#fdeef0;border-color:#f3c6cc;color:#8a1f2a}
+.pill.demo{color:var(--gold);border-color:color-mix(in srgb,var(--gold) 30%,var(--line))}
+.pill.rec{color:var(--rec);border-color:color-mix(in srgb,var(--rec) 35%,var(--line))}
+.pill.rec.ok{color:var(--up);border-color:color-mix(in srgb,var(--up) 35%,var(--line))}
+/* ---------- hero ---------- */
+.hero{padding:26px 0 12px}
+.hero h1{margin:0 0 7px;font-size:clamp(22px,3vw,33px);line-height:1.14;letter-spacing:-1px;font-weight:760}
+.hero h1 em{font-style:normal;color:var(--accent2)}
+.hero p{margin:0;max-width:840px;color:var(--muted);font-size:13.5px}
+/* ---------- layout ---------- */
+.grid{display:grid;grid-template-columns:340px 1fr;gap:18px;align-items:start;margin-top:16px}
+.grid>*{min-width:0}
+@media(max-width:1020px){.grid{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;overflow-x:auto}
+.card+.card{margin-top:14px}
+.ctitle{font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 12px}
+.side{position:sticky;top:66px;max-height:calc(100vh - 82px);overflow:auto;padding-right:4px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+@media(max-width:1020px){.side{position:static;max-height:none;overflow:visible}}
+details.grp{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);margin-bottom:10px;overflow:hidden}
+details.grp>summary{cursor:pointer;list-style:none;padding:11px 14px;font-size:11px;letter-spacing:1.2px;
+  text-transform:uppercase;font-weight:750;color:var(--muted);display:flex;align-items:center;justify-content:space-between}
+details.grp>summary::-webkit-details-marker{display:none}
+details.grp>summary::after{content:"+";font-size:15px;color:var(--accent);font-weight:700;line-height:1}
+details.grp[open]>summary::after{content:"–"}
+details.grp>summary:hover{color:var(--txt)}
+details.grp .body{padding:2px 14px 14px}
+.field{margin-bottom:12px}
+.field:last-child{margin-bottom:0}
+.field label{display:flex;justify-content:space-between;align-items:baseline;font-size:11.5px;color:var(--muted);margin-bottom:5px;gap:8px}
+.field label b{color:var(--txt);font-weight:650}
+.inp{display:flex;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:var(--rs);overflow:hidden;transition:.14s}
+.inp:focus-within{border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 16%,transparent)}
+.inp .pre{padding:0 2px 0 10px;color:var(--muted);font-size:12px}
+.inp .suf{padding:0 10px 0 2px;color:var(--muted);font-size:11.5px;white-space:nowrap}
+.inp input,.inp select{flex:1;min-width:0;background:none;border:0;color:var(--txt);font-family:inherit;
+  font-size:13.5px;font-variant-numeric:tabular-nums;padding:9px 10px;outline:none;width:100%}
+.inp input::-webkit-outer-spin-button,.inp input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.inp input[type=number]{-moz-appearance:textfield}
+.inp select{cursor:pointer;-webkit-appearance:none;appearance:none;padding-right:6px}
+.inp select option{background:var(--panel2);color:var(--txt)}
+.hint{font-size:11px;color:var(--muted);margin:5px 0 0;line-height:1.45}
+/* ---------- checklist strip ---------- */
+.striph{display:flex;align-items:center;gap:10px;margin:20px 0 9px}
+.striph .lb{font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);font-weight:750;white-space:nowrap}
+.striph .ln{flex:1;height:1px;background:var(--line)}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(224px,1fr));gap:8px;margin:0}
+.rule{display:flex;gap:9px;align-items:flex-start;background:var(--panel2);border:1px solid var(--line);
+  border-left-width:2px;border-radius:var(--rs);padding:9px 11px;font-size:11.5px;line-height:1.35}
+.rule.ok{border-left-color:var(--up)}
+.rule.warn{border-left-color:var(--gold)}
+.rule.bad{border-left-color:var(--down)}
+.rule .mk{font-size:12px;font-weight:800;line-height:1.3;flex:0 0 auto;width:15px;text-align:center}
+.rule.ok .mk{color:var(--up)}
+.rule.warn .mk{color:var(--gold)}
+.rule.bad .mk{color:var(--down)}
+.rule .t{color:var(--txt);font-weight:600;display:block}
+.rule .d{color:var(--muted);display:block;margin-top:1px}
+/* ---------- panels ---------- */
+.panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;margin-top:14px}
+@media(min-width:900px){.panels .panel:last-child:nth-child(3n+1){grid-column:span 2}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:15px 16px 14px;
+  display:flex;flex-direction:column;gap:11px;position:relative;overflow:hidden}
+.panel::before{content:"";position:absolute;inset:0 0 auto 0;height:2px;background:var(--line)}
+.panel.f-und::before{background:var(--up)}
+.panel.f-part::before{background:var(--gold)}
+.panel.f-gap::before{background:var(--down)}
+.ph{display:flex;align-items:center;gap:9px}
+.pn{width:21px;height:21px;border-radius:6px;background:var(--chip);border:1px solid var(--line);
+  color:var(--muted);font-size:11px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
+.ph h3{margin:0;font-size:13.5px;font-weight:720;letter-spacing:-.2px;flex:1}
+.kpis{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.kpi{background:var(--panel2);border:1px solid var(--line);border-radius:var(--rs);padding:8px 10px;min-width:0}
+.kpi span{display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.9px;color:var(--muted);font-weight:700}
+.kpi b{display:block;font-size:15px;font-weight:750;letter-spacing:-.5px;font-variant-numeric:tabular-nums;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi.hi b{color:var(--accent2)}
+.kpi.gp b{color:var(--down)}
+:root[data-theme="light"] .kpi.gp b{color:#a8232f}
+.bar{height:9px;background:var(--panel2);border-radius:999px;overflow:hidden;display:flex;border:1px solid var(--line)}
+.bar i{display:block;height:100%}
+.bar .s1{background:var(--accent)}
+.bar .s2{background:var(--grp)}
+.bar .s3{background:var(--nat)}
+.bar .s5{background:var(--rec)}
+.bar .s4{background:repeating-linear-gradient(45deg,var(--gapc) 0 5px,transparent 5px 9px);opacity:.55}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:10px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:4px}
+.legend i{width:8px;height:8px;border-radius:2px;display:inline-block}
+.rows{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.rows li{display:flex;justify-content:space-between;gap:8px;font-size:11.5px;color:var(--muted);
+  border-bottom:1px dashed color-mix(in srgb,var(--line) 75%,transparent);padding-bottom:4px}
+.rows li:last-child{border-bottom:0;padding-bottom:0}
+.rows li b{color:var(--txt);font-weight:650;font-variant-numeric:tabular-nums;white-space:nowrap}
+.rows li b.gp{color:var(--down)}
+:root[data-theme="light"] .rows li b.gp{color:#a8232f}
+.rows li b.ok{color:var(--up)}
+.scen{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.scen>div{background:var(--panel2);border:1px solid var(--line);border-radius:var(--rs);padding:7px 9px}
+.scen .lb{font-size:9.5px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);font-weight:700}
+.scen .vv{font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums}
+.scen .ok{color:var(--up)}
+.scen .no{color:var(--down)}
+.scen .wn{color:var(--gold)}
+.note{margin:0;font-size:11.5px;line-height:1.5;color:var(--muted);background:var(--panel2);
+  border-left:2px solid var(--line);border-radius:0 var(--rs) var(--rs) 0;padding:8px 10px}
+.note.wn{border-left-color:var(--gold);color:color-mix(in srgb,var(--txt) 78%,var(--muted))}
+.note.wn b{color:var(--gold)}
+.src{margin:0;font-size:10.5px;line-height:1.45;color:var(--muted)}
+.src b{color:var(--muted);font-weight:700}
+/* ---------- plan strip ---------- */
+.planstrip{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;margin:16px 0 0}
+.ps-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.ps-eq{font-size:12.5px;font-weight:700;letter-spacing:-.1px}
+.ps-eq b{color:var(--accent2);font-weight:800;padding:0 2px}
+.ps-sum{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.ps-note{margin:8px 0 0;font-size:11px;line-height:1.45;color:var(--muted)}
+.ps-note b{color:var(--txt);font-weight:650}
+.cap{font-size:10.5px;color:var(--muted);line-height:1.4;margin:-4px 0 0}
+.kpis.four{grid-template-columns:1fr 1fr 1fr}
+/* ---------- footer ---------- */
+.foot{margin-top:22px;font-size:11px;color:var(--muted);line-height:1.6;max-width:900px}
+.foot b{color:var(--txt)}
+.foot ol{margin:6px 0 0 18px;padding:0}
+.foot li{margin-bottom:3px}
+/* ---------- print ---------- */
+@media print{
+  :root{--bg:#fff;--panel:#fff;--panel2:#f6f8f7;--line:#cfd8d3;--txt:#101a15;--muted:#4d5f57;--chip:#f0f4f2;color-scheme:light}
+  body{background:#fff;padding:0;font-size:11px}
+  .top,.side,.hero p,.legend{display:none!important}
+  .grid{display:block}
+  .panels{grid-template-columns:1fr 1fr;gap:10px}
+  .panel{break-inside:avoid;page-break-inside:avoid}
+  .rules{grid-template-columns:1fr 1fr}
+  .wrap{max-width:none;padding:0}
+  .hero{padding:0 0 8px}
+  .hero h1{font-size:19px}
+}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand"><b>Protection Studio</b><span>Singapore protection needs checklist</span></div>
+  <span class="sp"></span>
+  <span class="pill" id="p-score">—</span>
+  <span class="pill rec" id="p-score2">—</span>
+  <span class="pill demo" id="p-demo" title="Seeded example figures — clear them before a client meeting">demo figures</span>
+  <button class="tbtn" id="b-print" title="Print / save as PDF">Print / PDF</button>
+  <button class="tbtn" id="b-clear" title="Zero every client money field, keep the LIA multiples">Clear client</button>
+  <button class="tbtn" id="b-reset" title="Restore the starting values">Default</button>
+  <button class="tbtn" id="b-theme" title="Light / dark">◐</button>
+</div>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>What the client <em>needs</em>, what is already <em>in place</em>, and the gap</h1>
+    <p>Eight boxes. Six carry a requirement — death, severe critical illness, early / intermediate critical illness,
+      TPD, disability income, hospitalisation; one shows how the accidental split is built inside death and TPD;
+      one shows what the employer is already carrying. Each event is tested on its own:
+      <b>today's cover + any recommendation = resulting coverage</b>. Requirements are cross-checked against the
+      LIA / MAS Basic Financial Planning Guide, the LIA protection-gap methodology, MOH's IP deductible and co-payment
+      rules, and CPF's national schemes — every figure traces to the source line under its box.</p>
+  </div>
+
+  <div class="striph"><span class="lb">LIA / MAS checklist</span><span class="ln"></span><span class="pill" id="p-count">checks</span></div>
+  <div class="rules" id="rules"></div>
+
+  <div class="planstrip">
+    <div class="ps-row">
+      <span class="ps-eq">Today's cover <b>+</b> recommended <b>=</b> resulting coverage</span>
+      <div class="legend">
+        <span><i style="background:var(--nat)"></i>Usable assets</span>
+        <span><i style="background:var(--accent)"></i>Existing cover</span>
+        <span><i style="background:var(--rec)"></i>Recommended</span>
+        <span><i style="background:repeating-linear-gradient(45deg,var(--gapc) 0 5px,transparent 5px 9px)"></i>Missing capital</span>
+      </div>
+      <div class="ps-sum" id="ps-sum"></div>
+    </div>
+    <p class="ps-note" id="ps-note"></p>
+  </div>
+
+  <div class="grid">
+    <div class="side" id="side"></div>
+    <div>
+      <div class="panels" id="panels"></div>
+      <div class="foot">
+        <b>How this is calculated.</b> Each box shows the requirement, what is already in place, and the shortfall.
+        Requirements follow the LIA / MAS Basic Financial Planning Guide: <b>9&times; annual income for death and TPD</b>
+        (LIA's own FAQ says 9–10&times;) and <b>4&times; annual income for standard critical illness</b> (his brief: 4–5&times;),
+        with the multiples set in the sidebar rather than buried in code. National schemes (DPS, MediShield Life,
+        CareShield Life) are counted as resources where they actually pay.
+        <ol>
+          <li>Death, TPD and critical illness are <b>alternative claims, not additive</b> — if the CI cover is accelerated
+            (pays out of the death sum assured) a CI claim reduces the death cover that remains.</li>
+          <li>The accidental split funds part of the 9× with cheaper accident-only cover. On an accident the two pay together;
+            on any other cause only the base cover pays, so the accidental share is a deliberate shortfall — see the
+            claim-scenario strip in each box.</li>
+          <li>Group cover is counted, but it ends with the job. Box 8 shows how much of the plan is contingent.</li>
+          <li>Recommended additions are shown in their own colour and never mixed into "in place" — a recommendation is
+            not protection until the client takes up the policy.</li>
+          <li>Statutory figures carry an effective-date note in their tooltip; no figure is typed from memory.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ==== PROTECTION ENGINE START ==== */
+var PS = (function () {
+  var V = 1;
+
+  var T = {
+    WARD_DEDUCTIBLE: { Private: 3500, A: 3500, B1: 2500, B2: 2000, C: 1500 },
+    COPAY_RATE: 0.05,
+    COPAY_CAP: 6000,
+    DI_MAX: 0.75,
+    CSHL_2026: 689,
+    CSHL_ULTIMATE: 2941,
+    DPS_ASSURED: 70000,
+    DPS_ASSURED_60: 55000,
+    PREMIUM_CAP: 0.15,
+    EMERGENCY_MIN: 3,
+    EMERGENCY_MAX: 6,
+    ACCIDENT_SHARE: 0.20,
+    DI_CLAIM_YEARS: 3.5,
+    CI_RECOVERY_YEARS: 5
+  };
+
+  function num(x) { var n = Number(x); return isFinite(n) ? n : 0; }
+  function clip(x, lo, hi) { return Math.max(lo, Math.min(hi, x)); }
+  function money(n) { return 'S$' + Math.round(num(n)).toLocaleString('en-SG'); }
+  function compact(n) {
+    n = num(n);
+    if (Math.abs(n) >= 1e6) return 'S$' + (n / 1e6).toFixed(2) + 'm';
+    if (Math.abs(n) >= 10000) return 'S$' + Math.round(n / 1e3) + 'k';
+    return money(n);
+  }
+  function pct(x) { return (num(x) * 100).toFixed(1).replace(/\.0$/, '') + '%'; }
+
+  function defaultProfile() {
+    return {
+      v: V,
+      client: { age: 35, annualIncome: 60000, dependants: 1, retirementAge: 65 },
+      basis: { deathMult: 9, tpdMult: 9, ciMult: 4, ciEarlyMult: 1, accidentShare: T.ACCIDENT_SHARE, ciAccelerated: false },
+      have: {
+        deathAny: 0, deathAcc: 0, ci: 0, ciEarly: 0, tpdAny: 0, tpdAcc: 0,
+        diMonthly: 0, diTargetRatio: T.DI_MAX, diClaimYears: T.DI_CLAIM_YEARS,
+        hospital: { ward: 'A', isp: false, rider: 'none' },
+        hospDays: 0, hospCash: 0,
+        careMonthlyCost: 2000, careYears: 10,
+        rec: { death: 0, deathAcc: 0, ci: 0, ciEarly: 0, tpd: 0, tpdAcc: 0, diMonthly: 0 }
+      },
+      group: { deathAny: 0, deathAcc: 0, tpdAny: 0, tpdAcc: 0, ci: 0, diMonthly: 0, hospital: false },
+      national: { dps: true, cshlMonthly: T.CSHL_2026, cshlSupplement: 0, cpfSavings: 0 },
+      money: { annualPremium: 0, liquidSavings: 0, monthlyExpenses: 3000, usableAssets: 0 }
+    };
+  }
+
+  /* ---- normaliser: repairs a partial or foreign document instead of rejecting it ---- */
+  function cleanProfile(raw) {
+    var d = defaultProfile(), p = raw && typeof raw === 'object' ? raw : {};
+    function mix(dst, src) {
+      Object.keys(dst).forEach(function (k) {
+        if (src && typeof src[k] !== 'undefined' && src[k] !== null) {
+          if (typeof dst[k] === 'object' && !Array.isArray(dst[k])) mix(dst[k], src[k]);
+          else if (typeof dst[k] === 'number') dst[k] = num(src[k]);
+          else if (typeof dst[k] === 'boolean') dst[k] = !!src[k];
+          else dst[k] = src[k];
+        }
+      });
+      return dst;
+    }
+    mix(d, p);
+    d.v = V;
+    d.client.age = clip(d.client.age, 16, 100);
+    d.client.retirementAge = clip(d.client.retirementAge, 40, 100);
+    d.client.annualIncome = Math.max(0, d.client.annualIncome);
+    d.client.dependants = Math.max(0, Math.round(d.client.dependants));
+    d.basis.deathMult = clip(d.basis.deathMult, 1, 20);
+    d.basis.tpdMult = clip(d.basis.tpdMult, 1, 20);
+    d.basis.ciMult = clip(d.basis.ciMult, 1, 20);
+    d.basis.ciEarlyMult = clip(d.basis.ciEarlyMult, 0, 20);
+    d.basis.accidentShare = clip(d.basis.accidentShare, 0, 1);
+    d.have.diTargetRatio = clip(d.have.diTargetRatio, 0, T.DI_MAX);
+    d.have.diClaimYears = clip(d.have.diClaimYears, 0.5, 40);
+    d.have.careYears = clip(d.have.careYears, 1, 40);
+    if (!T.WARD_DEDUCTIBLE.hasOwnProperty(d.have.hospital.ward)) d.have.hospital.ward = 'A';
+    if (['none', 'new', 'legacy'].indexOf(d.have.hospital.rider) < 0) d.have.hospital.rider = 'none';
+    ['deathAny', 'deathAcc', 'ci', 'ciEarly', 'tpdAny', 'tpdAcc', 'diMonthly', 'diTargetRatio', 'hospDays', 'hospCash', 'careMonthlyCost', 'careYears'].forEach(function (k) {
+      if (d.have[k] < 0) d.have[k] = 0;
+    });
+    Object.keys(d.have.rec).forEach(function (k) { if (d.have.rec[k] < 0) d.have.rec[k] = 0; });
+    Object.keys(d.group).forEach(function (k) {
+      if (typeof d.group[k] === 'number' && d.group[k] < 0) d.group[k] = 0;
+    });
+    ['cshlMonthly', 'cshlSupplement', 'cpfSavings'].forEach(function (k) { if (d.national[k] < 0) d.national[k] = 0; });
+    Object.keys(d.money).forEach(function (k) { if (d.money[k] < 0) d.money[k] = 0; });
+    return d;
+  }
+
+  function isDemo(p) { return num(p.client.annualIncome) === 60000 && num(p.have.careMonthlyCost) === 2000; }
+
+  /* ---- national schemes ---- */
+  function dpsAssured(age, on) {
+    if (!on) return 0;
+    if (age < 60) return T.DPS_ASSURED;
+    if (age <= 65) return T.DPS_ASSURED_60;
+    return 0;
+  }
+
+  /* ---- the plan layer: current resources + recommended additions ---- */
+  function planLayer(need, assets, cover, rec, monthlyIncome, gapOverride) {
+    var a = Math.max(0, assets), c = Math.max(0, cover), r = Math.max(0, rec);
+    var resources = a + c;
+    /* gapOverride carries a structural gap (the accidental split) that a plain
+       need-minus-resources test cannot express. */
+    var gapBefore = typeof gapOverride === 'number' ? Math.max(0, gapOverride) : Math.max(0, need - resources);
+    var missing = Math.max(0, gapBefore - r);
+    return {
+      assets: a, cover: c, resources: resources, rec: r,
+      gapBefore: gapBefore, missing: missing,
+      coveredByRec: Math.min(gapBefore, r),
+      fundedBefore: need <= 0 ? 1 : clip((need - gapBefore) / need, 0, 1),
+      fundedAfter: need <= 0 ? 1 : clip((need - missing) / need, 0, 1),
+      monthsCovered: monthlyIncome > 0 ? resources / monthlyIncome : 0
+    };
+  }
+
+  /* ---- boxes 1, 3, 4: lump sums with the accidental sub-limit ---- */
+  function splitBox(p, kind) {
+    var isDeath = kind === 'death';
+    var inc = num(p.client.annualIncome);
+    var mult = isDeath ? num(p.basis.deathMult) : num(p.basis.tpdMult);
+    var total = inc * mult;
+    var share = clip(num(p.basis.accidentShare), 0, 1);
+    var accReq = total * share, anyReq = total - accReq;
+
+    var dps = dpsAssured(num(p.client.age), p.national.dps);
+    var cpf = isDeath ? num(p.national.cpfSavings) : 0;
+    var personal = isDeath ? num(p.have.deathAny) : num(p.have.tpdAny);
+    var grp = isDeath ? num(p.group.deathAny) : num(p.group.tpdAny);
+    var anyHave = personal + grp + dps + cpf;
+
+    var personalAcc = isDeath ? num(p.have.deathAcc) : num(p.have.tpdAcc);
+    var grpAcc = isDeath ? num(p.group.deathAcc) : num(p.group.tpdAcc);
+    var accHave = personalAcc + grpAcc;
+
+    /* Assets are resources for any-cause cover. Cover above the base target is
+       credited against the accident-only target, because it pays on accidents too. */
+    var assets = num(p.money.usableAssets);
+    var baseResources = assets + anyHave;
+    var surplusBase = Math.max(0, baseResources - anyReq);
+    var gapAny = Math.max(0, anyReq - baseResources);
+    var gapAcc = Math.max(0, accReq - accHave - surplusBase);
+    var gap = gapAny + gapAcc;
+
+    var ciHave = num(p.have.ci) + num(p.group.ci);
+    var ciBurn = (isDeath && p.basis.ciAccelerated) ? Math.min(ciHave, anyHave) : 0;
+
+    /* Claim-path tests. The accident path must always reach the full need; a
+       shortfall on the other-cause path up to the accidental share is the trade
+       the split structure deliberately makes, so it is flagged amber, not red. */
+    var accShort = Math.max(0, total - (anyHave + accHave));
+    var otherShort = Math.max(0, total - anyHave);
+    var accidentStatus = total <= 0 ? 'ok' : (accShort <= 1 ? 'ok' : 'no');
+    var otherStatus = total <= 0 ? 'ok' : (otherShort <= 1 ? 'ok' : (otherShort <= accReq + 1 ? 'wn' : 'no'));
+
+    var recKey = isDeath ? 'death' : 'tpd';
+    var recAccKey = isDeath ? 'deathAcc' : 'tpdAcc';
+    var plan = planLayer(total, assets, anyHave + accHave,
+      num(p.have.rec[recKey]) + num(p.have.rec[recAccKey]), inc / 12, gap);
+
+    return {
+      key: kind,
+      total: total, mult: mult, accidentShare: share,
+      accReq: accReq, anyReq: anyReq,
+      personal: personal, group: grp, national: dps + cpf, dps: dps, cpf: cpf,
+      personalAcc: personalAcc, groupAcc: grpAcc,
+      anyHave: anyHave, accHave: accHave,
+      gapAny: gapAny, gapAcc: gapAcc, gap: plan.gapBefore,
+      /* plan layer — current + recommended = resulting coverage */
+      assets: plan.assets, resources: plan.resources, rec: plan.rec,
+      missing: plan.missing, gapBefore: plan.gapBefore, coveredByRec: plan.coveredByRec,
+      fundedBefore: plan.fundedBefore, fundedAfter: plan.fundedAfter,
+      monthsCovered: plan.monthsCovered,
+      accidentPayout: anyHave + accHave,
+      otherPayout: anyHave,
+      ciBurn: ciBurn,
+      otherAfterCI: Math.max(0, anyHave - ciBurn),
+      funded: total <= 0 ? 1 : clip((total - gap) / total, 0, 1),
+      accidentStatus: accidentStatus,
+      otherStatus: otherStatus,
+      accShort: accShort, otherShort: otherShort,
+      currency: 'S$'
+    };
+  }
+
+  /* ---- box 2 and 3: severe CI and early / intermediate CI (staged, separate events) ---- */
+  function ciBox(p, kind) {
+    var early = kind === 'early';
+    var inc = num(p.client.annualIncome);
+    var mult = early ? num(p.basis.ciEarlyMult) : num(p.basis.ciMult);
+    var total = inc * mult;
+    var personal = early ? num(p.have.ciEarly) : num(p.have.ci);
+    var grp = early ? 0 : num(p.group.ci);
+    var cover = personal + grp;
+    var rec = early ? num(p.have.rec.ciEarly) : num(p.have.rec.ci);
+    var plan = planLayer(total, num(p.money.usableAssets), cover, rec, inc / 12);
+    return {
+      key: early ? 'ciEarly' : 'ci',
+      early: early, total: total, mult: mult,
+      personal: personal, group: grp, national: 0, have: cover,
+      gap: plan.gapBefore, assets: plan.assets, resources: plan.resources,
+      rec: plan.rec, missing: plan.missing, coveredByRec: plan.coveredByRec,
+      funded: plan.fundedBefore, fundedBefore: plan.fundedBefore, fundedAfter: plan.fundedAfter,
+      monthsCovered: plan.monthsCovered,
+      accelerated: !!p.basis.ciAccelerated && !early,
+      recoveryYears: T.CI_RECOVERY_YEARS
+    };
+  }
+
+  /* ---- box 5: disability income + severe-disability (long-term care) funding ---- */
+  function diBox(p) {
+    var monthly = num(p.client.annualIncome) / 12;
+    var ratio = clip(num(p.have.diTargetRatio), 0, T.DI_MAX);
+    var target = monthly * ratio;
+    var personal = num(p.have.diMonthly), grp = num(p.group.diMonthly);
+    var have = personal + grp;
+    var gap = Math.max(0, target - have);
+    var claimYears = num(p.have.diClaimYears) || T.DI_CLAIM_YEARS;
+    var atRisk = gap * 12 * claimYears;
+
+    var care = {
+      monthlyCost: num(p.have.careMonthlyCost),
+      years: num(p.have.careYears),
+      cshl: num(p.national.cshlMonthly),
+      supplement: num(p.national.cshlSupplement)
+    };
+    care.payoutMonthly = care.cshl + care.supplement;
+    care.totalCost = care.monthlyCost * 12 * care.years;
+    care.totalPayout = care.payoutMonthly * 12 * care.years;
+    care.gapMonthly = Math.max(0, care.monthlyCost - care.payoutMonthly);
+    care.gapTotal = care.gapMonthly * 12 * care.years;
+
+    return {
+      key: 'di', monthly: monthly, ratio: ratio, target: target,
+      personal: personal, group: grp, have: have, gap: gap,
+      assets: 0, resources: have, rec: Math.max(0, num(p.have.rec.diMonthly)),
+      missing: Math.max(0, target - have - Math.max(0, num(p.have.rec.diMonthly))),
+      coveredByRec: Math.min(gap, Math.max(0, num(p.have.rec.diMonthly))),
+      claimYears: claimYears, atRisk: atRisk,
+      capHeadroom: Math.max(0, monthly * T.DI_MAX - have),
+      funded: target <= 0 ? 1 : clip((target - gap) / target, 0, 1),
+      fundedBefore: target <= 0 ? 1 : clip(have / target, 0, 1),
+      fundedAfter: target <= 0 ? 1 : clip((have + Math.max(0, num(p.have.rec.diMonthly))) / target, 0, 1),
+      care: care
+    };
+  }
+
+  /* ---- box 6: hospitalisation ---- */
+  function hospBox(p) {
+    var ward = p.have.hospital.ward;
+    var ded = T.WARD_DEDUCTIBLE[ward];
+    var cap = T.COPAY_CAP;
+    var worst = ded + cap;
+    var isp = !!p.have.hospital.isp, rider = p.have.hospital.rider;
+    var gap;
+    if (!isp) gap = worst;
+    else if (rider === 'legacy') gap = 0;
+    else if (rider === 'new') gap = ded;
+    else gap = worst;
+    var days = num(p.have.hospDays), perDay = num(p.have.hospCash);
+    var cash = days * perDay;
+    var net = Math.max(0, gap - cash);
+    return {
+      key: 'hosp', ward: ward, deductible: ded, copayCap: cap, worstOOP: worst,
+      isp: isp, rider: rider,
+      covered: worst - gap, gap: gap, cash: cash, net: net,
+      assets: 0, resources: Math.min(worst, worst - gap + cash), rec: 0, missing: net,
+      coveredByRec: 0,
+      funded: worst <= 0 ? 1 : clip((worst - gap) / worst, 0, 1),
+      fundedBefore: worst <= 0 ? 1 : clip((worst - gap) / worst, 0, 1),
+      fundedAfter: worst <= 0 ? 1 : clip((worst - net) / worst, 0, 1)
+    };
+  }
+
+  /* ---- box 7: company / group cover ---- */
+  function groupBox(p, boxes) {
+    var g = p.group;
+    var parts = [
+      { label: 'Group death (any cause)', amount: num(g.deathAny) },
+      { label: 'Group accidental death', amount: num(g.deathAcc) },
+      { label: 'Group TPD (any cause)', amount: num(g.tpdAny) },
+      { label: 'Group accidental TPD', amount: num(g.tpdAcc) },
+      { label: 'Group critical illness', amount: num(g.ci) },
+      { label: 'Group disability income', amount: num(g.diMonthly) * 12, note: 'annualised' }
+    ].filter(function (x) { return x.amount > 0; });
+
+    var lump = parts.reduce(function (a, x) { return a + x.amount; }, 0);
+    var deathReq = boxes.death.total || 1;
+    var ciReq = boxes.ci.total || 1;
+    var tpdReq = boxes.tpd.total || 1;
+    var shareDeath = num(g.deathAny) / deathReq;
+    var shareCI = num(g.ci) / ciReq;
+    var shareTPD = num(g.tpdAny) / tpdReq;
+    return {
+      key: 'group', parts: parts, lump: lump,
+      hospital: !!g.hospital,
+      diMonthly: num(g.diMonthly),
+      shareDeath: shareDeath, shareCI: shareCI, shareTPD: shareTPD,
+      maxShare: Math.max(shareDeath, shareCI, shareTPD),
+      count: parts.length + (g.hospital ? 1 : 0)
+    };
+  }
+
+  /* ---- box 4: the accidental composition of boxes 1 and 3 ---- */
+  function accidentBox(death, tpd) {
+    function row(b) {
+      return {
+        total: b.total, accReq: b.accReq, anyReq: b.anyReq,
+        accHave: b.accHave, anyHave: b.anyHave,
+        accidentPayout: b.accidentPayout, otherPayout: b.otherPayout,
+        gapAcc: b.gapAcc, gapAny: b.gapAny,
+        rec: b.rec, missing: b.missing, resources: b.resources
+      };
+    }
+    return { key: 'accident', death: row(death), tpd: row(tpd), share: death.accidentShare };
+  }
+
+  /* ---- LIA / MAS checklist ---- */
+  function rules(p, b) {
+    var out = [];
+    var dGap = b.death.gap, tGap = b.tpd.gap, cGap = b.ci.gap;
+
+    out.push({
+      label: 'Death & TPD at ' + b.death.mult + '× income',
+      status: (dGap <= 1 && tGap <= 1) ? 'ok' : (dGap <= 1 || tGap <= 1) ? 'warn' : 'bad',
+      detail: (dGap <= 1 && tGap <= 1) ? 'Both funded under the accidental split'
+        : 'Death ' + compact(dGap) + ' short · TPD ' + compact(tGap) + ' short'
+    });
+    out.push({
+      label: 'Critical illness at ' + b.ci.mult + '× income',
+      status: cGap <= 1 ? 'ok' : (b.ci.have / (b.ci.total || 1) >= 0.5 ? 'warn' : 'bad'),
+      detail: cGap <= 1 ? 'Funded' : compact(cGap) + ' short of ' + compact(b.ci.total)
+    });
+    if (b.ciEarly && b.ciEarly.total > 0) {
+      var eGap = b.ciEarly.gap;
+      out.push({
+        label: 'Early / intermediate CI at ' + b.ciEarly.mult + '× income',
+        status: eGap <= 1 ? 'ok' : (b.ciEarly.have > 0 ? 'warn' : 'bad'),
+        detail: eGap <= 1 ? 'Funded — pays on early-stage diagnosis'
+          : compact(eGap) + ' short of ' + compact(b.ciEarly.total)
+      });
+    }
+    out.push({
+      label: 'Disability income at the 75% cap',
+      status: b.di.gap <= 1 ? 'ok' : (b.di.have > 0 ? 'warn' : 'bad'),
+      detail: b.di.gap <= 1 ? 'Monthly benefit meets ' + pct(b.di.ratio) + ' of income'
+        : compact(b.di.gap) + '/month short · ' + compact(b.di.atRisk) + ' over ' + b.di.claimYears + ' yrs'
+    });
+    out.push({
+      label: 'Hospitalisation: IP + rider, out-of-pocket capped',
+      status: b.hosp.net <= 1 ? 'ok' : (b.hosp.isp ? 'warn' : 'bad'),
+      detail: b.hosp.net <= 1 ? 'Deductible and co-payment covered'
+        : compact(b.hosp.net) + ' per policy year (' + b.hosp.ward + ' class)'
+    });
+    out.push({
+      label: 'Severe disability: CareShield Life considered',
+      status: b.di.care.gapMonthly <= 1 ? 'ok' : (b.di.care.payoutMonthly > 0 ? 'warn' : 'bad'),
+      detail: b.di.care.payoutMonthly > 0
+        ? compact(b.di.care.payoutMonthly) + '/mo vs ' + compact(b.di.care.monthlyCost) + '/mo care cost'
+        : 'No CareShield Life counted'
+    });
+    var premp = num(p.money.annualPremium) / (num(p.client.annualIncome) || 1);
+    out.push({
+      label: 'Premiums within 15% of income',
+      status: num(p.money.annualPremium) <= 0 ? 'warn' : premp <= T.PREMIUM_CAP ? 'ok' : 'bad',
+      detail: num(p.money.annualPremium) <= 0 ? 'Enter annual premiums to test'
+        : pct(premp) + ' of gross income (' + money(p.money.annualPremium) + '/yr)'
+    });
+    var months = num(p.money.monthlyExpenses) > 0 ? num(p.money.liquidSavings) / num(p.money.monthlyExpenses) : 0;
+    out.push({
+      label: 'Emergency fund of 3–6 months',
+      status: num(p.money.liquidSavings) <= 0 ? 'warn' : months >= T.EMERGENCY_MIN ? 'ok' : 'bad',
+      detail: num(p.money.liquidSavings) <= 0 ? 'Enter liquid savings to test'
+        : months.toFixed(1) + ' months of expenses'
+    });
+    out.push({
+      label: 'National schemes counted',
+      status: 'ok',
+      detail: [p.national.dps ? 'DPS ' + compact(b.death.dps) : 'DPS off',
+        'MediShield Life', 'CareShield Life ' + compact(b.di.care.cshl) + '/mo'].join(' · ')
+    });
+    return out;
+  }
+
+  /* ---- assemble ---- */
+  function build(pRaw) {
+    var p = cleanProfile(pRaw);
+    var death = splitBox(p, 'death');
+    var tpd = splitBox(p, 'tpd');
+    var ci = ciBox(p, 'severe');
+    var ciEarly = ciBox(p, 'early');
+    var di = diBox(p);
+    var hosp = hospBox(p);
+    var boxes = { death: death, tpd: tpd, ci: ci, ciEarly: ciEarly, di: di, hosp: hosp };
+    var accident = accidentBox(death, tpd);
+    var group = groupBox(p, boxes);
+
+    /* an event with a zero requirement (e.g. early CI switched off) is not scored */
+    var needs = [death, ci, tpd, di, hosp].concat(ciEarly.total > 0 ? [ciEarly] : []);
+    var fundedCount = needs.filter(function (x) {
+      return x.key === 'hosp' ? x.net <= 1 : x.gap <= 1;
+    }).length;
+    var fundedAfterCount = needs.filter(function (x) {
+      return x.key === 'hosp' ? x.net <= 1 : x.missing <= 1;
+    }).length;
+    var missingTotal = needs.reduce(function (a, x) {
+      return a + (x.key === 'hosp' ? x.net : x.missing);
+    }, 0);
+    var recTotal = needs.reduce(function (a, x) { return a + (x.rec || 0); }, 0);
+    var lumpGap = death.gap + ci.gap + tpd.gap;
+
+    var list = [death, ci, ciEarly, tpd, accident, di, hosp, group];
+
+    return {
+      v: V,
+      profile: p,
+      death: death, ci: ci, ciEarly: ciEarly, tpd: tpd, accident: accident, di: di, hosp: hosp, group: group,
+      boxes: list,
+      rules: rules(p, boxes),
+      summary: {
+        funded: fundedCount, fundedAfter: fundedAfterCount, of: needs.length,
+        lumpGap: lumpGap, missingTotal: missingTotal, recTotal: recTotal,
+        deathTotal: death.total, ciTotal: ci.total, ciEarlyTotal: ciEarly.total, tpdTotal: tpd.total,
+        contingentLump: group.lump,
+        premiumPct: num(p.money.annualPremium) / (num(p.client.annualIncome) || 1),
+        emergencyMonths: num(p.money.monthlyExpenses) > 0 ? num(p.money.liquidSavings) / num(p.money.monthlyExpenses) : 0
+      }
+    };
+  }
+
+  return {
+    V: V, T: T,
+    defaultProfile: defaultProfile, cleanProfile: cleanProfile, isDemo: isDemo,
+    dpsAssured: dpsAssured,
+    splitBox: splitBox, ciBox: ciBox, diBox: diBox, hospBox: hospBox, groupBox: groupBox,
+    accidentBox: accidentBox, rules: rules, build: build,
+    money: money, compact: compact, pct: pct, num: num, clip: clip
+  };
+})();
+if (typeof window !== 'undefined') window.PS = PS;
+/* ==== PROTECTION ENGINE END ==== */
+
+/* ================= UI ================= */
+(function () {
+  if (typeof document === 'undefined') return;
+  var KEY = 'protection-studio-v' + PS.V;
+  var state = load();
+
+  function load() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (raw) return PS.cleanProfile(JSON.parse(raw));
+    } catch (e) { /* untrusted storage */ }
+    return PS.defaultProfile();
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  function get(path) {
+    return path.split('.').reduce(function (o, k) { return o == null ? o : o[k]; }, state);
+  }
+  function set(path, val) {
+    var ks = path.split('.'), o = state;
+    for (var i = 0; i < ks.length - 1; i++) o = o[ks[i]];
+    o[ks[ks.length - 1]] = val;
+  }
+
+  /* ---------------- sidebar ---------------- */
+  var SELECTS = {
+    'have.hospital.ward': [['Private', 'Private hospital'], ['A', 'Class A'], ['B1', 'Class B1'], ['B2', 'Class B2'], ['C', 'Class C']],
+    'have.hospital.rider': [['none', 'No rider'], ['new', 'Rider from 1 Apr 2026'], ['legacy', 'Legacy full rider']]
+  };
+
+  var GROUPS = [
+    {
+      g: 'Client', open: true, items: [
+        { k: 'client.age', l: 'Age (last birthday)', t: 'num', suf: 'yrs' },
+        { k: 'client.annualIncome', l: 'Annual income', t: 'money' },
+        { k: 'client.dependants', l: 'Dependants', t: 'num' },
+        { k: 'client.retirementAge', l: 'Planned retirement age', t: 'num', suf: 'yrs' }
+      ]
+    },
+    {
+      g: 'LIA basis — the multiples', open: true, items: [
+        { k: 'basis.deathMult', l: 'Death', t: 'num', suf: '× income', h: 'LIA / MAS guide: 9×. LIA FAQ: 9–10×.' },
+        { k: 'basis.tpdMult', l: 'TPD', t: 'num', suf: '× income', h: 'LIA / MAS guide: 9×.' },
+        { k: 'basis.ciMult', l: 'Critical illness (severe)', t: 'num', suf: '× income', h: 'LIA / MAS guide: 4×. LIA PGS 2022 used 3.9× on a 5-year recovery.' },
+        { k: 'basis.ciEarlyMult', l: 'Early / intermediate CI', t: 'num', suf: '× income', h: 'Separate event from severe CI. 1× is a placeholder (≈25% of a 4× severe sum) — set your own rule, or 0 to switch the event off.' },
+        { k: 'basis.accidentShare', l: 'Accidental share of death & TPD', t: 'pct', h: 'Part of the total need funded by accident-only cover. 20% reproduces his S$200k + S$800k = S$1m example.' },
+        { k: 'basis.ciAccelerated', l: 'CI accelerates the death cover', t: 'chk', h: 'If ticked, a CI claim is paid out of the death sum assured and reduces the death cover that remains.' }
+      ]
+    },
+    {
+      g: 'Already in place — client policies', open: true, items: [
+        { k: 'have.deathAny', l: 'Death cover, any cause', t: 'money' },
+        { k: 'have.deathAcc', l: 'Accidental death cover only', t: 'money' },
+        { k: 'have.ci', l: 'Critical illness cover', t: 'money' },
+        { k: 'have.ciEarly', l: 'Early / intermediate CI cover', t: 'money' },
+        { k: 'have.tpdAny', l: 'TPD cover, any cause', t: 'money' },
+        { k: 'have.tpdAcc', l: 'Accidental TPD cover only', t: 'money' },
+        { k: 'have.diMonthly', l: 'Disability income, per month', t: 'money' }
+      ]
+    },
+    {
+      g: 'Disability income detail', open: false, items: [
+        { k: 'have.diTargetRatio', l: 'Target replacement', t: 'pct', h: 'Capped at 75% — insurers will not write more than 75% of pre-disability income.' },
+        { k: 'have.diClaimYears', l: 'Assumed claim length', t: 'num', suf: 'yrs', h: 'LIA reports a median long-term disability claim of about 3.5 years.' },
+        { k: 'have.careMonthlyCost', l: 'Care cost per month', t: 'money', h: 'From your LPA deck: basic care at home about S$2,000/month; nursing home S$2,000–4,000; specialised private care about S$6,000.' },
+        { k: 'have.careYears', l: 'Years of care to fund', t: 'num', suf: 'yrs' },
+        { k: 'national.cshlMonthly', l: 'CareShield Life payout', t: 'money', suf: '/mo', h: 'S$689/month for a 2026 claim; rises 4%/yr until claim or age 67 (up to S$2,941). Edit to the client\'s claim-year figure.' },
+        { k: 'national.cshlSupplement', l: 'CareShield supplement', t: 'money', suf: '/mo' }
+      ]
+    },
+    {
+      g: 'Hospitalisation', open: false, items: [
+        { k: 'have.hospital.ward', l: 'Ward class used', t: 'sel' },
+        { k: 'have.hospital.isp', l: 'Integrated Shield Plan in place', t: 'chk', h: 'MediShield Life is assumed for everyone; an ISP adds above it.' },
+        { k: 'have.hospital.rider', l: 'Rider type', t: 'sel' },
+        { k: 'have.hospCash', l: 'Hospital cash benefit, per day', t: 'money' },
+        { k: 'have.hospDays', l: 'Days per year to allow', t: 'num', suf: 'days' }
+      ]
+    },
+    {
+      g: 'Company / group cover', open: false, items: [
+        { k: 'group.deathAny', l: 'Group death (any cause)', t: 'money' },
+        { k: 'group.deathAcc', l: 'Group accidental death', t: 'money' },
+        { k: 'group.tpdAny', l: 'Group TPD', t: 'money' },
+        { k: 'group.tpdAcc', l: 'Group accidental TPD', t: 'money' },
+        { k: 'group.ci', l: 'Group critical illness', t: 'money' },
+        { k: 'group.diMonthly', l: 'Group disability income', t: 'money', suf: '/mo' },
+        { k: 'group.hospital', l: 'Group hospitalisation in place', t: 'chk' }
+      ]
+    },
+    {
+      g: 'Recommended additions — not implemented', open: true, items: [
+        { k: 'have.rec.death', l: 'Death (base, any cause)', t: 'money', h: 'A recommendation until the client takes up the policy. Shown separately from existing cover everywhere.' },
+        { k: 'have.rec.deathAcc', l: 'Accidental death', t: 'money' },
+        { k: 'have.rec.ci', l: 'Severe critical illness', t: 'money' },
+        { k: 'have.rec.ciEarly', l: 'Early / intermediate CI', t: 'money' },
+        { k: 'have.rec.tpd', l: 'TPD (base, any cause)', t: 'money' },
+        { k: 'have.rec.tpdAcc', l: 'Accidental TPD', t: 'money' },
+        { k: 'have.rec.diMonthly', l: 'Disability income', t: 'money', suf: '/mo' }
+      ]
+    },
+    {
+      g: 'National schemes & money checks', open: false, items: [
+        { k: 'money.usableAssets', l: 'Usable assets', t: 'money', h: 'Cash, savings and investments the client would actually use. Counted against every event separately — never added across events.' },
+        { k: 'national.dps', l: 'Count CPF DPS', t: 'chk', h: 'S$70,000 to age 60, S$55,000 from 60 to 65. Death, terminal illness and TPD.' },
+        { k: 'national.cpfSavings', l: 'CPF savings to dependants', t: 'money', h: 'Counted for death only — the LIA calculator treats CPF balances as an available resource for mortality, not for CI.' },
+        { k: 'money.annualPremium', l: 'Annual premiums paid', t: 'money' },
+        { k: 'money.liquidSavings', l: 'Liquid savings', t: 'money' },
+        { k: 'money.monthlyExpenses', l: 'Monthly household expenses', t: 'money' }
+      ]
+    }
+  ];
+
+  function fieldHTML(it) {
+    var v = get(it.k);
+    var inp;
+    if (it.t === 'chk') {
+      inp = '<div class="inp" style="padding:6px 10px"><input type="checkbox" data-k="' + it.k + '" ' + (v ? 'checked' : '') +
+        ' style="width:16px;height:16px;accent-color:var(--accent)" aria-label="' + it.l + '"></div>';
+    } else if (it.t === 'sel') {
+      var opts = (SELECTS[it.k] || []).map(function (o) {
+        return '<option value="' + o[0] + '"' + (String(v) === o[0] ? ' selected' : '') + '>' + o[1] + '</option>';
+      }).join('');
+      inp = '<div class="inp"><select data-k="' + it.k + '">' + opts + '</select></div>';
+    } else {
+      var pre = it.t === 'money' ? '<span class="pre">S$</span>' : '';
+      var suf = it.suf ? '<span class="suf">' + it.suf + '</span>' : '';
+      var val = it.t === 'pct' ? Math.round(Number(v) * 1000) / 10 : v;
+      inp = '<div class="inp">' + pre + '<input type="number" data-k="' + it.k + '" data-t="' + it.t + '" value="' + val +
+        '" step="' + (it.t === 'pct' ? '1' : (it.t === 'num' && /\./.test(String(it.k)) ? '0.1' : '1')) + '" min="0">' + suf + '</div>';
+    }
+    return '<div class="field"><label><span>' + it.l + '</span></label>' + inp +
+      (it.h ? '<p class="hint">' + it.h + '</p>' : '') + '</div>';
+  }
+
+  function renderSide() {
+    document.getElementById('side').innerHTML = GROUPS.map(function (gr) {
+      return '<details class="grp"' + (gr.open ? ' open' : '') + '><summary>' + gr.g + '</summary><div class="body">' +
+        gr.items.map(fieldHTML).join('') + '</div></details>';
+    }).join('');
+  }
+
+  /* ---------------- panels ---------------- */
+  function bar(segments, total) {
+    var t = total > 0 ? total : 1;
+    var used = 0;
+    var html = segments.map(function (s) {
+      var w = Math.max(0, Math.min(100 - used, (s.v / t) * 100));
+      used += w;
+      if (w <= 0) return '';
+      return '<i class="' + s.c + '" style="width:' + w.toFixed(2) + '%" title="' + s.n + '"></i>';
+    }).join('');
+    var rest = Math.max(0, 100 - used);
+    if (rest > 0.4) html += '<i class="s4" style="width:' + rest.toFixed(2) + '%" title="Gap"></i>';
+    return '<div class="bar">' + html + '</div>';
+  }
+  function legend(kind) {
+    var gapChip = '<span><i style="background:repeating-linear-gradient(45deg,var(--gapc) 0 5px,transparent 5px 9px)"></i>' +
+      (kind === 'plan' ? 'Missing capital' : 'Gap') + '</span>';
+    if (kind === 'plan') {
+      return '<div class="legend"><span><i style="background:var(--nat)"></i>Usable assets</span>' +
+        '<span><i style="background:var(--accent)"></i>Existing cover</span>' +
+        '<span><i style="background:var(--rec)"></i>Recommended</span>' + gapChip + '</div>';
+    }
+    return '<div class="legend"><span><i style="background:var(--accent)"></i>Cover held</span>' + gapChip + '</div>';
+  }
+  function statusClass(gap, total) {
+    if (gap <= 1) return 'f-und';
+    if (total > 0 && (total - gap) / total >= 0.5) return 'f-part';
+    return 'f-gap';
+  }
+  function statusPill(gap) {
+    return gap <= 1 ? '<span class="pill ok">funded</span>' : '<span class="pill warn">short ' + PS.compact(gap) + '</span>';
+  }
+  function afterPill(missing, gap) {
+    if (missing <= 1) return gap <= 1 ? '<span class="pill ok">funded</span>' : '<span class="pill">closes with recommendation</span>';
+    return '<span class="pill warn">short ' + PS.compact(missing) + '</span>';
+  }
+  function months(m, unit) {
+    if (!(m > 0)) return 'No confirmed capital yet';
+    return (m >= 10 ? Math.round(m) : m.toFixed(1)) + ' months of ' + unit;
+  }
+  function panel(o) {
+    var third = (o.after !== undefined)
+      ? '<div class="kpi ' + (o.after <= 1 ? '' : 'gp') + '"><span>Missing after</span><b>' + PS.compact(o.after) + '</b></div>'
+      : '<div class="kpi gp"><span>Gap</span><b>' + PS.compact(o.gap) + '</b></div>';
+    return '<section class="panel ' + o.cls + '">' +
+      '<div class="ph"><span class="pn">' + o.n + '</span><h3>' + o.title + '</h3>' + o.pill + '</div>' +
+      (o.caption ? '<p class="cap">' + o.caption + '</p>' : '') +
+      '<div class="kpis">' +
+      '<div class="kpi"><span>Required</span><b>' + PS.compact(o.required) + '</b></div>' +
+      '<div class="kpi hi"><span>In place</span><b>' + PS.compact(o.inPlace) + '</b></div>' +
+      third +
+      '</div>' +
+      bar(o.segs, o.required) + legend(o.legend || 'plan') +
+      '<ul class="rows">' + o.rows.map(function (r) {
+        return '<li><span>' + r[0] + '</span><b class="' + (r[2] || '') + '">' + r[1] + '</b></li>';
+      }).join('') + '</ul>' +
+      (o.scen || '') + (o.note ? '<p class="note ' + (o.noteCls || '') + '">' + o.note + '</p>' : '') +
+      (o.bench ? '<p class="cap"><i>' + o.bench + '</i></p>' : '') +
+      '<p class="src"><b>Source:</b> ' + o.src + '</p>' +
+      '</section>';
+  }
+
+  function renderPanels() {
+    var R = PS.build(state);
+    var d = R.death, t = R.tpd, c = R.ci, a = R.accident, di = R.di, h = R.hosp, g = R.group;
+    var out = [];
+
+    out.push(panel({
+      n: 1, title: 'Death', cls: statusClass(d.gap, d.total), pill: afterPill(d.missing, d.gap),
+      required: d.total, inPlace: d.resources, gap: d.gap, after: d.missing,
+      caption: months(d.monthsCovered, 'income in confirmed capital'),
+      segs: [{ v: d.assets, c: 's3', n: 'Usable assets' }, { v: d.anyHave + d.accHave, c: 's1', n: 'Existing cover' },
+      { v: d.rec, c: 's5', n: 'Recommended' }],
+      rows: [
+        ['Total need — ' + d.mult + '× income', PS.money(d.total)],
+        ['Base cover target (any cause)', PS.money(d.anyReq)],
+        ['Accident-only target', PS.money(d.accReq) + ' (' + PS.pct(d.accidentShare) + ')'],
+        ['Usable assets', PS.money(d.assets)],
+        ['Existing cover — client', PS.money(d.personal + d.personalAcc)],
+        ['Existing cover — company', PS.money(d.group + d.groupAcc)],
+        ['National — CPF DPS' + (d.cpf ? ' + CPF savings' : ''), PS.money(d.national)],
+        ['Recommended (not implemented)', PS.money(d.rec)],
+        ['Missing after change', PS.money(d.missing), d.missing > 1 ? 'gp' : 'ok']
+      ],
+      scen: '<div class="scen"><div><span class="lb">If death by accident (today)</span><span class="vv ' +
+        d.accidentStatus + '">' + PS.compact(d.accidentPayout) + ' of ' + PS.compact(d.total) + '</span></div>' +
+        '<div><span class="lb">If death by illness (today)</span><span class="vv ' +
+        d.otherStatus + '">' + PS.compact(d.otherPayout) + ' of ' + PS.compact(d.total) + '</span></div></div>',
+      note: d.ciBurn > 0
+        ? '<b>Accelerated CI:</b> a ' + PS.compact(d.ciBurn) + ' CI claim leaves ' + PS.compact(d.otherAfterCI) + ' of death cover.'
+        : (d.accidentShare > 0
+          ? 'The accidental share buys the same need more cheaply, but only pays on an accident. On any other cause the base cover has to carry the full ' + d.mult + '×.'
+          : ''),
+      noteCls: d.ciBurn > 0 ? 'wn' : '',
+      src: 'LIA / MAS Basic Financial Planning Guide: 9× annual income for death &amp; TPD. LIA mortality FAQ: 9–10×. DPS S$70,000 to 60, S$55,000 to 65 (CPF / Great Eastern). CPF balances as a resource per the LIA simplified calculator.'
+    }));
+
+    function ciPanel(n, title, box) {
+      var isSevere = box.key === 'ci';
+      var rows = [
+        ['Total need — ' + box.mult + '× income', PS.money(box.total)],
+        ['Usable assets', PS.money(box.assets)],
+        ['Client cover', PS.money(box.personal)],
+        ['Company cover', PS.money(box.group)],
+        ['Recommended (not implemented)', PS.money(box.rec)],
+        ['Missing after change', PS.money(box.missing), box.missing > 1 ? 'gp' : 'ok']
+      ];
+      if (isSevere) {
+        rows.push(['LIA recovery assumption', box.recoveryYears + ' years']);
+        rows.push(['Payout structure', box.accelerated ? 'Accelerated (from death sum)' : 'Additional / standalone']);
+      }
+      return panel({
+        n: n, title: title, cls: statusClass(box.gap, box.total), pill: afterPill(box.missing, box.gap),
+        required: box.total, inPlace: box.resources, gap: box.gap, after: box.missing,
+        caption: box.total > 0 ? months(box.monthsCovered, 'income in confirmed capital') : 'Not required at this multiple',
+        segs: [{ v: box.assets, c: 's3', n: 'Usable assets' }, { v: box.have, c: 's1', n: 'Existing cover' },
+        { v: box.rec, c: 's5', n: 'Recommended' }],
+        rows: rows,
+        note: isSevere
+          ? (box.accelerated
+            ? 'Accelerated cover is not extra cover — it is paid out of the death sum assured, so a claim cuts the death benefit by the same amount.'
+            : 'The LIA standard list covers 37 critical illnesses. Immediate medical costs are assumed met by MediShield Life / an ISP, so this sum funds recovery and income loss.')
+          : 'Early / intermediate CI is a separate event that pays on an early-stage diagnosis, on top of a severe-CI plan — it is not a substitute for it, and it is not added to the severe-CI sum. The ' + box.mult + '× default is a placeholder: confirm your own sizing rule.',
+        noteCls: isSevere && box.accelerated ? 'wn' : (isSevere ? '' : 'wn'),
+        bench: 'Reported benefit amounts: check the insured person, the terms and any overlaps before counting ' + (isSevere ? 'severe-CI' : 'early-CI') + ' cover.',
+        src: isSevere
+          ? 'LIA / MAS Basic Financial Planning Guide: 4× annual income for standard critical illness. LIA 2022 Protection Gap Study: CI need ≈ 3.9× income on a five-year recovery period.'
+          : 'Staged CI: insurers pay a smaller sum on early/intermediate-stage conditions and the balance on a severe diagnosis. Sizing is an adviser assumption, not a statutory rule.'
+      });
+    }
+    out.push(ciPanel(2, 'Severe critical illness', c));
+    out.push(ciPanel(3, 'Early / intermediate CI', R.ciEarly));
+
+    out.push(panel({
+      n: 4, title: 'Total & permanent disability', cls: statusClass(t.gap, t.total), pill: afterPill(t.missing, t.gap),
+      required: t.total, inPlace: t.resources, gap: t.gap, after: t.missing,
+      caption: months(t.monthsCovered, 'income in confirmed capital'),
+      segs: [{ v: t.assets, c: 's3', n: 'Usable assets' }, { v: t.anyHave + t.accHave, c: 's1', n: 'Existing cover' },
+      { v: t.rec, c: 's5', n: 'Recommended' }],
+      rows: [
+        ['Total need — ' + t.mult + '× income', PS.money(t.total)],
+        ['Base cover target (any cause)', PS.money(t.anyReq)],
+        ['Accident-only target', PS.money(t.accReq) + ' (' + PS.pct(t.accidentShare) + ')'],
+        ['Usable assets', PS.money(t.assets)],
+        ['Existing cover — client', PS.money(t.personal + t.personalAcc)],
+        ['Existing cover — company', PS.money(t.group + t.groupAcc)],
+        ['National — CPF DPS', PS.money(t.national)],
+        ['Recommended (not implemented)', PS.money(t.rec)],
+        ['Missing after change', PS.money(t.missing), t.missing > 1 ? 'gp' : 'ok']
+      ],
+      scen: '<div class="scen"><div><span class="lb">TPD by accident (today)</span><span class="vv ' +
+        t.accidentStatus + '">' + PS.compact(t.accidentPayout) + ' of ' + PS.compact(t.total) + '</span></div>' +
+        '<div><span class="lb">TPD by illness (today)</span><span class="vv ' +
+        t.otherStatus + '">' + PS.compact(t.otherPayout) + ' of ' + PS.compact(t.total) + '</span></div></div>',
+      note: 'TPD definitions differ by insurer — own occupation vs any occupation. The sum assured is only as good as the definition it is written on.',
+      src: 'LIA / MAS Basic Financial Planning Guide: 9× annual income for TPD. DPS covers death, terminal illness and TPD (CPF, Great Eastern).'
+    }));
+
+    out.push(panel({
+      n: 5, title: 'Accidental death & TPD composition', cls: 'f-part', legend: 'cover',
+      pill: '<span class="pill">' + PS.pct(a.share) + ' accident-only</span>',
+      required: a.death.accReq + a.tpd.accReq,
+      inPlace: Math.min(a.death.accHave + a.tpd.accHave, a.death.accReq + a.tpd.accReq),
+      gap: a.death.gapAcc + a.tpd.gapAcc,
+      segs: [
+        { v: a.death.accHave, c: 's1', n: 'Accident-only death cover held' },
+        { v: a.tpd.accHave, c: 's2', n: 'Accident-only TPD cover held' }
+      ],
+      rows: [
+        ['Death: base + accidental = total', PS.money(a.death.anyReq) + ' + ' + PS.money(a.death.accReq) + ' = ' + PS.money(a.death.total)],
+        ['Death: accident-only cover held', PS.money(a.death.accHave), a.death.gapAcc > 1 ? 'gp' : 'ok'],
+        ['TPD: base + accidental = total', PS.money(a.tpd.anyReq) + ' + ' + PS.money(a.tpd.accReq) + ' = ' + PS.money(a.tpd.total)],
+        ['TPD: accident-only cover held', PS.money(a.tpd.accHave), a.tpd.gapAcc > 1 ? 'gp' : 'ok'],
+        ['Paid on an accident, death', PS.money(a.death.accidentPayout)],
+        ['Paid on an accident, TPD', PS.money(a.tpd.accidentPayout)],
+        ['Paid on illness, death / TPD', PS.money(a.death.otherPayout) + ' / ' + PS.money(a.tpd.otherPayout)]
+      ],
+      note: 'Accident-only cover is a funding choice, not extra protection: it fills part of the 9–10× need with cheaper premium and leaves a shortfall on every non-accidental claim. S$200k accidental + S$800k base = S$1m is exactly this structure.',
+      noteCls: 'wn',
+      src: 'Structure per the brief (death 9–10× = accidental + base; TPD the same). Accident-only plans pay accidental death / TPD only; the base sum carries every other cause.'
+    }));
+
+    out.push(panel({
+      n: 6, title: 'Disability income', cls: statusClass(di.gap, di.target), pill: afterPill(di.missing, di.gap),
+      required: di.target, inPlace: di.have, gap: di.gap, after: di.missing,
+      caption: di.claimYears + ' years assumed claim length',
+      segs: [{ v: di.personal, c: 's1', n: 'Client DI' }, { v: di.group, c: 's2', n: 'Company DI' },
+      { v: di.rec, c: 's5', n: 'Recommended' }],
+      rows: [
+        ['Monthly income', PS.money(di.monthly)],
+        ['Benefit required (' + PS.pct(di.ratio) + ' of income)', PS.money(di.target) + '/mo'],
+        ['Client policy', PS.money(di.personal) + '/mo'],
+        ['Company cover', PS.money(di.group) + '/mo'],
+        ['Recommended (not implemented)', PS.money(di.rec) + '/mo'],
+        ['Missing after change', PS.money(di.missing) + '/mo', di.missing > 1 ? 'gp' : 'ok'],
+        ['Room under the 75% cap', PS.money(di.capHeadroom) + '/mo'],
+        ['Income at risk over ' + di.claimYears + ' yrs', PS.money(di.atRisk), di.atRisk > 1 ? 'gp' : 'ok'],
+        ['CareShield Life (severe disability)', PS.money(di.care.payoutMonthly) + '/mo', 'ok'],
+        ['Care cost ' + PS.money(di.care.monthlyCost) + '/mo for ' + di.care.years + ' yrs', PS.money(di.care.totalCost)],
+        ['Unfunded care', PS.money(di.care.gapTotal), di.care.gapTotal > 1 ? 'gp' : 'ok']
+      ],
+      note: 'Two different covers, often confused: disability income replaces salary when the client cannot work (own-occupation, any cause of illness or injury, deferred period, benefit to 60/65); CareShield Life pays only on severe disability — 3 of 6 activities of daily living. Neither replaces the other.',
+      noteCls: 'wn',
+      src: 'MAS / insurer practice: total disability income capped at 75% of pre-disability income across all policies. CareShield Life: S$689/month for a 2026 claim, rising 4%/yr to age 67 (CPF). Care-cost figures from your LPA / incapacity funding deck: S$2,000/month basic home care, S$240,000 over ten years.'
+    }));
+
+    out.push(panel({
+      n: 7, title: 'Hospitalisation', cls: statusClass(h.net, h.worstOOP), pill: statusPill(h.net),
+      required: h.worstOOP, inPlace: h.covered + h.cash, gap: h.net, after: h.net,
+      segs: [{ v: h.covered, c: 's1', n: 'IP / rider cover' }, { v: h.cash, c: 's3', n: 'Hospital cash benefit' }],
+      rows: [
+        ['Worst-case out-of-pocket (' + h.ward + ')', PS.money(h.worstOOP) + '/yr'],
+        ['Minimum deductible', PS.money(h.deductible)],
+        ['Co-payment cap (5%, min S$6,000)', PS.money(h.copayCap)],
+        ['Integrated Shield Plan', h.isp ? 'In place' : 'Not in place', h.isp ? 'ok' : 'gp'],
+        ['Rider', h.rider === 'legacy' ? 'Legacy full cover' : h.rider === 'new' ? 'Covers co-pay, not deductible' : 'None', h.rider === 'none' ? 'gp' : ''],
+        ['Hospital cash benefit', PS.money(h.cash) + ' (' + PS.num(state.have.hospDays) + ' days)'],
+        ['Cash left for the client', PS.money(h.net), h.net > 1 ? 'gp' : 'ok']
+      ],
+      note: 'From 1 April 2026 new IP riders may not cover the MOH minimum deductible, and the co-payment cap rises to at least S$6,000 a policy year — so every client carries at least the deductible. Both can be paid from MediSave, which is why "cash" and "cost" are not the same question here.',
+      noteCls: 'wn',
+      src: 'MOH (26 Nov 2025) new IP rider requirements; minimum IP deductibles S$3,500 (private / A), S$2,500 (B1), S$2,000 (B2), S$1,500 (C) per policy year; minimum co-payment 5%, cap at least S$6,000 from 1 Apr 2026.'
+    }));
+
+    out.push(panel({
+      n: 8, title: 'Company cover — the contingent part', cls: g.maxShare >= 0.5 ? 'f-part' : 'f-und', legend: 'cover',
+      pill: g.count > 0 ? '<span class="pill">' + g.count + ' benefits</span>' : '<span class="pill warn">none declared</span>',
+      required: g.lump, inPlace: g.lump, gap: 0,
+      segs: g.parts.map(function (x, i) { return { v: x.amount, c: i % 2 ? 's2' : 's1', n: x.label }; }),
+      rows: (g.parts.length ? g.parts.map(function (x) {
+        return [x.label + (x.note ? ' (' + x.note + ')' : ''), PS.money(x.amount)];
+      }) : [['No group cover declared', PS.money(0)]]).concat([
+        ['Group hospitalisation', g.hospital ? 'In place' : 'None', g.hospital ? 'ok' : 'gp'],
+        ['Share of death need', PS.pct(g.shareDeath)],
+        ['Share of TPD need', PS.pct(g.shareTPD)],
+        ['Share of CI need', PS.pct(g.shareCI)],
+        ['Lost if the job ends', PS.money(g.lump) + (g.diMonthly ? ' + ' + PS.money(g.diMonthly) + '/mo' : ''), g.lump > 1 ? 'gp' : '']
+      ]),
+      note: g.maxShare >= 0.5
+        ? 'Over half of one need is carried by the employer. Group cover ends with the job and is usually lost exactly when a claim is most likely — price the replacement before counting it.'
+        : 'Group cover complements the personal plan rather than replacing it. It is counted as in place, but it is not portable and is not guaranteed to renew.',
+      noteCls: g.maxShare >= 0.5 ? 'wn' : '',
+      src: 'Personal Accident / Group Term / Group Hospitalisation product structures; LIA simplified calculator counts group cover as an available resource. Portability is the advisory caveat, not a statutory rule.'
+    }));
+
+    document.getElementById('panels').innerHTML = out.join('');
+
+    document.getElementById('rules').innerHTML = R.rules.map(function (r) {
+      var mk = r.status === 'ok' ? '✓' : r.status === 'warn' ? '!' : '×';
+      return '<div class="rule ' + r.status + '"><span class="mk">' + mk + '</span><span><span class="t">' + r.label +
+        '</span><span class="d">' + r.detail + '</span></span></div>';
+    }).join('');
+
+    document.getElementById('p-count').textContent = R.rules.length + ' checks · ' + R.rules.filter(function (r) { return r.status === 'ok'; }).length + ' passing';
+    document.getElementById('ps-sum').innerHTML =
+      '<span class="pill">Recommended ' + PS.compact(R.summary.recTotal) + '</span>' +
+      '<span class="pill ' + (R.summary.missingTotal <= 1 ? 'ok' : 'warn') + '">Missing after change ' + PS.compact(R.summary.missingTotal) + '</span>';
+    document.getElementById('ps-note').innerHTML =
+      '<b>Additional cover is a recommendation, not implemented protection.</b> Each event is independent — cover is not added across events, ' +
+      'and the same usable assets are counted against every event rather than shared between them. ' +
+      'Existing cover and national schemes stay intact until the client actually takes up a new policy.';
+
+    var noClient = PS.num(state.client.annualIncome) <= 0;
+    document.getElementById('p-score').textContent = noClient ? 'enter client income'
+      : R.summary.funded + ' of ' + R.summary.of + ' funded today';
+    document.getElementById('p-score').className = 'pill ' + (noClient ? '' : (R.summary.funded === R.summary.of ? 'ok' : 'warn'));
+    document.getElementById('p-score2').textContent = noClient ? ''
+      : R.summary.recTotal > 0
+        ? R.summary.fundedAfter + ' of ' + R.summary.of + ' with recommendation'
+        : 'no recommendation entered';
+    document.getElementById('p-score2').className = 'pill rec' + (!noClient && R.summary.fundedAfter === R.summary.of && R.summary.recTotal > 0 ? ' ok' : '');
+    document.getElementById('p-demo').style.display = PS.isDemo(state) ? '' : 'none';
+    document.title = 'Protection Studio — ' + PS.compact(R.summary.lumpGap) + ' lump-sum gap';
+  }
+
+  /* ---------------- events ---------------- */
+  document.addEventListener('input', function (ev) {
+    var el = ev.target;
+    var k = el.getAttribute && el.getAttribute('data-k');
+    if (!k) return;
+    if (el.type === 'checkbox') set(k, el.checked);
+    else if (el.tagName === 'SELECT') set(k, el.value);
+    else {
+      var raw = el.value === '' ? 0 : Number(el.value);
+      if (!isFinite(raw)) raw = 0;
+      set(k, el.getAttribute('data-t') === 'pct' ? raw / 100 : raw);
+    }
+    state = PS.cleanProfile(state);
+    save();
+    renderPanels();
+  });
+  document.addEventListener('change', function (ev) {
+    if (ev.target.tagName === 'SELECT') {
+      state = PS.cleanProfile(state); save(); renderPanels();
+    }
+  });
+
+  document.getElementById('b-theme').onclick = function () {
+    var r = document.documentElement;
+    r.setAttribute('data-theme', r.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    try { localStorage.setItem(KEY + '-theme', r.getAttribute('data-theme')); } catch (e) {}
+  };
+  document.getElementById('b-print').onclick = function () { window.print(); };
+  document.getElementById('b-reset').onclick = function () {
+    state = PS.defaultProfile(); save(); renderSide(); renderPanels();
+  };
+  document.getElementById('b-clear').onclick = function () {
+    state = PS.cleanProfile({
+      basis: state.basis, client: { age: state.client.age, annualIncome: 0, dependants: state.client.dependants, retirementAge: state.client.retirementAge },
+      have: { hospital: state.have.hospital, diTargetRatio: state.have.diTargetRatio, diClaimYears: state.have.diClaimYears, careYears: state.have.careYears },
+      national: { dps: state.national.dps, cshlMonthly: state.national.cshlMonthly }
+    });
+    save(); renderSide(); renderPanels();
+  };
+
+  try {
+    var th = localStorage.getItem(KEY + '-theme');
+    if (th) document.documentElement.setAttribute('data-theme', th);
+  } catch (e) {}
+
+  renderSide();
+  renderPanels();
+})();
+</script>
+</body>
+</html>
